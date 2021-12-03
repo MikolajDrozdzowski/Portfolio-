@@ -1,0 +1,20 @@
+.about-me-section {
+  line-height: 22px;
+  font-size: 20px;
+  text-align: justify;
+  display: flex;
+}
+
+.about-me-container {
+  margin-bottom: 70px;
+}
+
+.about-me-container h2 {
+  font-size: 32px;
+}
+
+@media only screen and (max-width: 512px) {
+  .about-me-section {
+    font-size: 18px;
+  }
+}

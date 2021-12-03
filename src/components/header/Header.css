@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 12px;
+  position: fixed;
+  align-items: center;
+  background-color: #6937cc;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  
+  
+  
+  /* #A400FF; */
+  /* #8C1FCC; */
+  /* #8445FF */
+  /* #8445FF; */
+}
+
+.menu {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.menu-icon {
+  font-size: 24px;
+  color: white;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.web-menu {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  font-size: 36px;
+  color: white;
+  font-weight: 800;
+  margin-left: 50px;
+}
+.logo a {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 720px) {
+  .mobile-menu {
+    display: flex;
+  }
+  .web-menu {
+    display: none;
+  }
+  .logo {
+    font-size: 24px;
+    margin-left: 5px;
+  }
+}
