@@ -8,7 +8,7 @@ export const ProjectData = [
     demo: "https://crypto-world-md-project.netlify.app/",
     github: "https://github.com/MikolajDrozdzowski/Crypto-World",
     image:
-      "https://i.ibb.co/jWTGKrv/Crypto-World.png",
+    (require("../assets/CryptoWorld.png").default),
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const ProjectData = [
     demo: "https://social-ptalform-md-project.netlify.app/",
     github: "https://github.com/MikolajDrozdzowski/Social-Platform",
     image:
-      "https://i.ibb.co/qs5DV7b/Social-Platform.png",
+    (require("../assets/SocialPlatform .png").default),
   },
   {
     id: 3,
@@ -28,6 +28,6 @@ export const ProjectData = [
     tags: ['HTML', 'CSS', 'JavaScript', 'React', 'Material-UI'],
     demo: 'https://mywebsitedemo-md.netlify.app/',
     github: 'https://github.com/MikolajDrozdzowski/Demo-Website-Project',
-    image: 'https://i.ibb.co/R6VPVnx/My-Website.png',
+    image: (require("../assets/MyWebsite.png").default),
   }
 ];
