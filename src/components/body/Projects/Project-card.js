@@ -1,5 +1,6 @@
 import React from "react";
 import "./Project-card.css";
+import LanguageIcon from '@material-ui/icons/Language';
 
 function ProjectCard({ project }) {
   return (
@@ -15,7 +16,8 @@ function ProjectCard({ project }) {
               rel="noreferrer"
             >
               <div className="link-button">
-                <i className="fi fi-rr-globe"></i>
+                {/* <i className="fi fi-rr-globe"></i> */}
+                <LanguageIcon fontSize='small' className='demo-icon' />
                 Demo
               </div>
             </a>
@@ -28,7 +30,7 @@ function ProjectCard({ project }) {
               rel="noreferrer"
             >
               <div className="link-button">
-                <i className="devicon-github-original"></i>
+                <i className="devicon-github-original github-icon" ></i>
                 Github
               </div>
             </a>

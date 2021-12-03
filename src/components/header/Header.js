@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./Header.css";
 import WebHeader from "./web/WebHeader";
 import MobileHeader from "./mobile/MobileHeader";
+import MenuIcon from '@material-ui/icons/Menu';
+
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +19,8 @@ function Header() {
         </div>
         <div className="mobile-menu">
           <div onClick={() => setIsOpen(!isOpen)}>
-            <i className="fi fi-rr-menu-burger menu-icon"></i>
+            {/* <i className="fi fi-rr-menu-burger menu-icon"></i> */}
+            <MenuIcon className='menu-icon' fontSize='large'  />
           </div>
           {isOpen && <MobileHeader isOpen={isOpen} setIsOpen={setIsOpen} />}
         </div>

@@ -79,6 +79,14 @@
   text-align:justify;
 }
 
+.demo-icon {
+  margin-right: 5px;
+}
+
+.github-icon {
+  font-size: 20px;
+}
+
 @media only screen and (max-width: 720px) {
   .project-photo {
     width: 90%;
