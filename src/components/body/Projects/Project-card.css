@@ -89,7 +89,7 @@
 
 @media only screen and (max-width: 720px) {
   .project-photo {
-    width: 90%;
+    width: 100%;
   }
   .project-card {
     flex-direction: column;

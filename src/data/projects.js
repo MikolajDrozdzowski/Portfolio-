@@ -16,8 +16,8 @@ export const ProjectData = [
     about:
       "In this project I have used React and Material-UI components library to make mockup social platform. MakeStyles hook allowed me to fully customize components and make them responsive to different screen sizes.",
     tags: ["HTML", "CSS", "JavaScript", "React", "Material-UI"],
-    demo: "https://github.com/MikolajDrozdzowski/Social-Platform",
-    github: "https://social-ptalform-md-project.netlify.app/",
+    demo: "https://social-ptalform-md-project.netlify.app/",
+    github: "https://github.com/MikolajDrozdzowski/Social-Platform",
     image:
       "https://i.ibb.co/qs5DV7b/Social-Platform.png",
   },

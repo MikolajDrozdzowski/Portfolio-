@@ -24,6 +24,9 @@
     height: 100px;
   }
   .skill-icon {
-    font-size: 60px;
+    font-size: 45px;
+  }
+  .skill-name {
+    font-size: 16px;
   }
 }
