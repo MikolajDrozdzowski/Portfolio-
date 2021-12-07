@@ -2,7 +2,8 @@
   line-height: 22px;
   font-size: 20px;
   text-align: justify;
-  display: flex;
+  
+  /* display: flex; */
 }
 
 .about-me-container {
@@ -13,8 +14,14 @@
   font-size: 32px;
 }
 
+.technologies {
+  color: #6937cc;
+  font-weight: 600;
+}
+
 @media only screen and (max-width: 512px) {
   .about-me-section {
     font-size: 18px;
+    word-spacing: -2px;
   }
 }

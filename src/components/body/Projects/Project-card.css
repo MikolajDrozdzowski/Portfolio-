@@ -49,6 +49,7 @@
 }
 
 .link-button {
+  height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,6 +78,7 @@
   line-height: 22px;
   font-size: 19px;
   text-align:justify;
+  word-spacing: -2px;
 }
 
 .demo-icon {
