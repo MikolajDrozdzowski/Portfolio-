@@ -12,6 +12,17 @@ export const ProjectData = [
   },
   {
     id: 2,
+    title: "- Dream House - ",
+    about:
+      "In this project, I have used React and NextJs to create a website for renting and buying real estate. The website uses data fetched from Bayut API and allows users to filter properties by category and check the specificity of each property. This project is based on a component library Chakra-UI and is fully responsive.",
+    tags: ["React", 'Next.js', 'Chakra-UI', 'JavaScript'],
+    demo: "https://dream-house-ten.vercel.app/",
+    github: "https://github.com/MikolajDrozdzowski/Dream-House",
+    image:
+    (require("../assets/Dream-House-demo-photo.png").default),
+  },
+  {
+    id: 3,
     title: "- Social Platform -",
     about:
       "In this project I have used React and Material-UI components library to make mockup social platform. MakeStyles hook allowed me to fully customize components and make them responsive to different screen sizes.",
@@ -22,7 +33,7 @@ export const ProjectData = [
     (require("../assets/SocialPlatform .png").default),
   },
   {
-    id: 3,
+    id: 4,
     title: '- Home Page Demo -',
     about: 'In this project, I created a demo-website’s home page using React. The website is based on a components library Material-UI and was created with an emphasis on responsive design. The website includes simple animations and uses React-Scroll to improve scrolling effects.',
     tags: ['HTML', 'CSS', 'JavaScript', 'React', 'Material-UI'],
