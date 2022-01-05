@@ -32,7 +32,7 @@ export const SkillsData = [
         id: 6,
       },
       {
-        name: 'Git',
+        name: 'Git and GitHub',
         icon: <i class="devicon-github-original colored"></i>,
         id: 7,
       },
